@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">DemoDecision</string>
+    <string name="action_settings">Settings</string>
+    <string name="decision">Decision</string>
+    <string name="enter_nation_name">Enter Nation Name</string>
+    <string name="enter_tax_rate">Enter Tax Rate</string>
+    <string name="enter_o_s_n">Enter O,S,N</string>
+    <string name="enter">Enter</string>
+</resources>

@@ -1,0 +1,9 @@
+com.example.tabbedversion
+com.example.tabbedversion.HandlerClasses
+com.example.tabbedversion.HelperClasses
+com.example.tabbedversion.MockitoTests
+com.example.tabbedversion.TestClasses
+com.example.tabbedversion.data
+com.example.tabbedversion.data.model
+com.example.tabbedversion.login
+com.example.tabbedversion.ui.main

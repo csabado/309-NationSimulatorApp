@@ -1,0 +1,40 @@
+package org.cs309.backend.GovTest;
+
+import static org.junit.Assert.*;
+import static org.mockito.Mockito.times;
+import static org.mockito.Mockito.verify;
+import static org.mockito.Mockito.when;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import org.junit.Before;
+import org.junit.Test;
+import org.mockito.InjectMocks;
+import org.mockito.Mock;
+import org.mockito.MockitoAnnotations;
+import java.util.Optional;
+
+import org.cs309.backend.Gov.*;
+
+public class GovTest {
+    @InjectMocks
+    GovController govController;
+
+    @Mock
+    GovService govService;
+
+    @Before
+    public void init(){
+	MockitoAnnotations.initMocks(this);
+    }
+
+    @Test
+    public void testGetById(){
+	when (govService.getById(new Long(15))).thenReturn(new Gov(new Long(15),"Hello",new Long(100)));
+	Gov a = govService.getById(new Long(15));
+	System.out.println(a);;
+	assertTrue(a.getType().equals("Hello"));
+	assertTrue(a.getMoney().equals(new Long(100)));
+    }
+}

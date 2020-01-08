@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MessagingScreen</string>
+    <string name="from">From:</string>
+    <string name="message">Message:</string>
+    <string name="reply">Reply</string>
+    <string name="view_message">View Message</string>
+</resources>

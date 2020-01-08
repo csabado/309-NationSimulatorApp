@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">DecisionPage</string>
+    <string name="change_nation_name">Change Nation Name:</string>
+    <string name="enter_new_name">Enter New Name</string>
+    <string name="change_tax_rate">Change Tax Rate:</string>
+    <string name="enter_new_tax_rate">Enter New Tax Rate</string>
+    <string name="declare_alliance_war">Declare Alliance/ War:</string>
+    <string name="immigration_policy">Immigration Policy:</string>
+    <string name="enter_policy">Enter Policy</string>
+    <string-array name="imm_Policies">
+        <item>Open</item>
+        <item>Strict</item>
+        <item>None</item>
+    </string-array>
+</resources>
